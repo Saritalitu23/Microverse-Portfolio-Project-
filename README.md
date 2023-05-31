@@ -1,6 +1,9 @@
 # Microverse-Portfolio-Project-
-<div align="center"></div>
+<div align="center">
+</div>
+
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -20,11 +23,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!--Project Description-->
+<!--Project Section--/>
 
-# 📖 [Hello-Microverse.] <a name="about-project"></a>
+# 📖 [Hello-Microverse] <a name="about-project"></a>
 
-its my portfolio website written by using HTML & CSS.
+its mini Technical Project
+
+**Portfolio:Pritikant Dhal** is portfolio website written in HTML & CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,7 +38,8 @@ its my portfolio website written by using HTML & CSS.
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML+CSS</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
@@ -41,13 +47,9 @@ its my portfolio website written by using HTML & CSS.
 
 ### Key Features <a name="key-features"></a>
 
-
-- **Header With Menu icon & Backgroung Image**
-- **My Introduction in Hero Section**
-- **My Projectwork Section**
-- **About Me Section With Details**
-- **Github Workflow linter (HTML & CSS)**
-
+- **Header with menu item & background image**
+- **My Personal Introduction in Main Section**
+- **Github workflows with linter(HTML & CSS)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,67 +63,64 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
- <ul>
+<ul>
     <li><a href="https://git-scm.com/downloads">Git</a></li>
     <li><a href="https://code.visualstudio.com/">VS Code</a></li>
     <li><a href="https://nodejs.org/en/download/package-manager">Node</a></li>
     <li><a href="https://www.npmjs.com/package/npm">NPM</a></li>
     <li><a href="https://github.com/ritwickdey/vscode-live-server-plus-plus">VS Code Live Server Plugin</a></li>
-    <li>Chrome or any other web browser of your choice.</li>   
+    <li>Chrome or any other web browser of your choice.</li>
   </ul>
 
-### Setup
-
-Clone this repository to your desired folder:
-------
-  cd Microverse-Portfolio-Project-
-  git clone git@github.com:Saritalitu23/Microverse-Portfolio-Project-.git
-------
-
-### Install
-
-Install this project with:
-
-```
-  cd Microverse-Portfolio-Project-
-  npm i
-```
-
-### Usage
-
-To use this project, execute the following command:
-
-Use <a href="">live server </a>vs code extension to launch the project on your browser
-
-
-### Run tests
-
-To run linter check locally, run the following command:
-
-```
-  npx stylelint --fix "**/*.css"
-```
 
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+ gem install rails
 ```
---->
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+----
+cd Microverse-Portfolio-Project-
+git clone git@github.com:Saritalitu23/Microverse-Portfolio-Project-.git
+----
+
+
+
+### Install
+
+Install this project with:
+```
+  cd Microverse-Portfolio-Project
+  npm i
+```
+
+### Usage
+
+To run the project, execute the following command:
+Use <a href="">live server </a>vs code extension to launch the project on your browser
+
+
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+  npx stylelint --fix "**/*.css"
+```
+
 
 ### Deployment
 
 You can deploy this project using:
+
 <a href="https://pages.github.com/">Github Pages</a> or <a href="https://www.netlify.com/">Netlify</a>
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,9 +144,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Adding Description of Website**
-- [ ] **Makeing Page Responsive**
-- [ ] **Adding Footer**
+- [ ] **going to add project section**
+- [ ] **going to add about me section**
+- [ ] **going to add about page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,21 +164,20 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project please do follow me on social media mentiond above on Authors section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-If you like this project you can clone it and feel free to improve it by making a pull request. and I would like to thank Microverse for giving us the opportunity to learn and grow as developers
+I would like to thank <a href="https://www.microverse.org/">Microverse</a> to give me oportunity to work on this project
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
