@@ -46,6 +46,7 @@ header {
   background-image: url(images/icons/image_geometry_2.svg);
   background-position: top center;
   height: 500px;
+  margin-bottom: -325px;
 }
 
 .title {
@@ -91,3 +92,161 @@ header {
 .playfair {
   font-family: "Playfair Display", serif;
 }
+.bg1 {
+  background-image: url(images/icons/Project\ 1.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px;
+  top: 754px;
+}
+.bg2 {
+  background-image: url(images/icons/Project\ \ 2.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px; 
+}
+.bg3 {
+  background-image: url(images/icons/Project\ \ 3.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px;  
+}
+.bg4 {
+  background-image: url(images/icons/Project\ 4.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px;  
+}
+.bg5 {
+  background-image: url(images/icons/Project\ \ 5.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px; 
+}
+.bg6 {
+  background-image: url(images/icons/Project\ \ 6.svg);
+  background-position: top center;
+  height: 186px;
+  width: 320px;  
+}
+.project {
+  color: #fff;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: #1a2236;
+  width: 320px;
+}
+#project-title {
+  text-transform: capitalize;
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+}
+.project-languages {
+  padding-left: 1rem;
+  color: #1a2236;
+  font-size: 300;
+  list-style: none;
+  gap: 0.625rem;
+}
+.project-language {
+  background-color: #98dede;
+  display: inline-block;
+  padding: 0.150rem 0.300rem;
+  font-size: 10.3334px;
+  height: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+}
+.project-btn {
+  margin-left: 1rem;
+  padding: 0.625rem;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+  align-items: center;
+  width: max-content;
+}
+.project-btn:hover {
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+.project-btn:active {
+  border: 2px solid #1a2236;
+}
+.project-btn span {
+  padding-right: 0.625rem;
+}
+#projects {
+  display: grid;
+  grid-template-rows: repeat(6,1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.space {
+  margin-bottom: -30px;
+}
+
+.project p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+.about {
+   flex-direction: column;
+   padding: 1rem;
+   gap: 1.25rem;
+}
+#about-me {
+   font-weight: 400;
+   font-size: 0.875rem;
+   line-height: 1.3125rem;
+   color: #1a2236;
+   font-style: normal;
+   
+}
+#get-cv-btn {
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.d-container{
+  color: #fff;
+}
+.card {
+  padding-left: 3.125rem;
+  list-style: none;
+  height: 289px;
+}
+.card h5 {
+font-size: 1.25rem;
+margin-bottom: 1.3125rem;
+padding-top: 3.125rem;
+}
+.list-1 {
+  background-color: 1.125rem;
+  font-weight: 800;
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  
+}
+#languages {
+  background-color: #1c528a;
+  background-image: url(images/icons/hash.svg);
+  background-position: right bottom;
+}
+#frameworks {
+  background-color: #e2505c;
+  background-image: url(images/icons/ic_framework\ \(1\).svg);
+  background-position: right bottom;
+}
+#skills {
+  background-color: #febf52;
+  background-image: url(images/icons/ic_skills\ \(1\).svg);
+  background-position:  right bottom;
+}
+
+
+
