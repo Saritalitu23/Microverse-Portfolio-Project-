@@ -9,11 +9,13 @@
 }
 
 /* General */
+
 html {
   font-size: 16px;
 }
 
 /* header section */
+
 #menu-1 {
   width: 20%;
   margin-right: 14px;
@@ -94,7 +96,7 @@ header {
 }
 
 .bg1 {
-  background-image: url(images/icons/Project\ 1.svg);
+  background-image: url(images/icons/Project-1.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
@@ -102,35 +104,35 @@ header {
 }
 
 .bg2 {
-  background-image: url(images/icons/Project\ \ 2.svg);
+  background-image: url(images/icons/Project-2.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
 }
 
 .bg3 {
-  background-image: url(images/icons/Project\ \ 3.svg);
+  background-image: url(images/icons/Project-3.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
 }
 
 .bg4 {
-  background-image: url(images/icons/Project\ 4.svg);
+  background-image: url(images/icons/Project-4.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
 }
 
 .bg5 {
-  background-image: url(images/icons/Project\ \ 5.svg);
+  background-image: url(images/icons/Project-5.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
 }
 
 .bg6 {
-  background-image: url(images/icons/Project\ \ 6.svg);
+  background-image: url(images/icons/Project-6.svg);
   background-position: top center;
   height: 186px;
   width: 320px;
@@ -262,13 +264,13 @@ header {
 
 #frameworks {
   background-color: #e2505c;
-  background-image: url(images/icons/ic_framework\ \(1\) .svg);
+  background-image: url(images/icons/frameworks.svg);
   background-position: right bottom;
 }
 
 #skills {
   background-color: #febf52;
-  background-image: url(images/icons/ic_skills\ \(1\) .svg);
+  background-image: url(images/icons/Skills.svg);
   background-position: right bottom;
 }
 
