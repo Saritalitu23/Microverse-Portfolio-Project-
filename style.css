@@ -192,6 +192,18 @@ header {
   width: 100%;
 }
 
+.titlea {
+  margin-top: 56px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  margin-right: 168px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  width: 134px;
+}
+
 .about {
   flex-direction: column;
   padding: 1rem;
