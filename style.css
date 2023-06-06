@@ -17,18 +17,20 @@ html {
 /* header section */
 
 #menu-1 {
-  width: 20%;
-  margin-right: 14px;
-  margin-left: 250px;
-  padding: 20px;
+  width: 2.5rem;
+}
+
+nav {
+  height: 4rem;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  background-image: url(images/icons/image_geometry_1.svg);
   margin-bottom: 5%;
+  background-image: url(images/icons/image_geometry_1.svg);
+  padding: 1rem;
   background-position: left top;
 }
 
@@ -37,6 +39,7 @@ header {
 }
 
 /* main section */
+
 #main {
   flex-direction: column;
   gap: 1.5rem;
@@ -44,33 +47,46 @@ header {
   font-weight: 400;
 }
 
-.bg {
-  background-image: url(images/icons/image_geometry_2.svg);
-  background-position: top center;
-  height: 500px;
-  margin-bottom: -325px;
+.main-end img {
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
 }
 
 .title {
-  font-size: 3.125rem;
-  line-height: 0.9;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-style: normal;
   font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
   color: #1a2236;
 }
 
 .my-introduction {
-  font-size: 0.875rem;
-  line-height: 1.312rem;
-  letter-spacing: -1%;
+  width: 288px;
+  height: 147px;
+  left: 16px;
+  top: 221px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
 }
 
 .btn {
-  height: 3.125rem;
-  border: none;
-  color: #fff;
+  box-sizing: border-box;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
   background: #1a2236;
-  font-weight: 500;
-  text-transform: capitalize;
+  color: #fff;
 }
 
 .btn:hover,
@@ -82,7 +98,7 @@ header {
 
 .btn:active {
   border: 2px solid #000;
-  background: #fff;
+  background-color: #fff;
   color: #000;
 }
 
@@ -95,67 +111,41 @@ header {
   font-family: "Playfair Display", serif;
 }
 
-.bg1 {
-  background-image: url(images/icons/Project-1.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-  top: 754px;
-}
-
-.bg2 {
-  background-image: url(images/icons/Project-2.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-}
-
-.bg3 {
-  background-image: url(images/icons/Project-3.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-}
-
-.bg4 {
-  background-image: url(images/icons/Project-4.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-}
-
-.bg5 {
-  background-image: url(images/icons/Project-5.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-}
-
-.bg6 {
-  background-image: url(images/icons/Project-6.svg);
-  background-position: top center;
-  height: 186px;
-  width: 320px;
-}
-
 .project {
   color: #fff;
   flex-direction: column;
   gap: 1.25rem;
   background-color: #1a2236;
-  width: 320px;
+  padding-bottom: 1.25rem;
 }
 
 #project-title {
-  text-transform: capitalize;
-  margin-bottom: 1.25rem;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 672px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin: 16px 121px 40px 32px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
   padding-left: 1rem;
 }
 
 .project-languages {
   padding-left: 1rem;
   color: #1a2236;
-  font-size: 300;
+  font-size: 0.625rem;
+  font-weight: 300;
   list-style: none;
   gap: 0.625rem;
 }
@@ -164,22 +154,19 @@ header {
   background-color: #98dede;
   display: inline-block;
   padding: 0.15rem 0.3rem;
-  font-size: 10.3334px;
   height: 1.25rem;
-  font-style: normal;
-  font-weight: 300;
 }
 
 .project-btn {
   margin-left: 1rem;
-  padding: 0.625rem;
+  padding: 0.9375rem;
   text-align: center;
   font-size: 1rem;
   border: 1px solid #fff;
   background-color: #1a2236;
   color: #fff;
   align-items: center;
-  width: max-content;
+  width: 53%;
 }
 
 .project-btn:hover {
@@ -196,21 +183,13 @@ header {
   padding-right: 0.625rem;
 }
 
+/* grid & flex */
+
 #projects {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-template-rows: 1fr;
   width: 100%;
-}
-
-.space {
-  margin-bottom: -30px;
-}
-
-.project p {
-  font-size: 1.25rem;
-  font-weight: 400;
-  padding-left: 1rem;
 }
 
 .about {
@@ -220,11 +199,14 @@ header {
 }
 
 #about-me {
+  width: 288px;
+  height: 105px;
+  left: 16px;
+  top: 2932px;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.3125rem;
+  font-size: 14px;
+  line-height: 21px;
   color: #1a2236;
-  font-style: normal;
 }
 
 #get-cv-btn {
@@ -251,7 +233,7 @@ header {
 
 .list-1 {
   background-color: 1.125rem;
-  font-weight: 800;
+  font-weight: 600;
   list-style-type: disc;
   margin-left: 1.25rem;
 }
@@ -273,11 +255,3 @@ header {
   background-image: url(images/icons/Skills.svg);
   background-position: right bottom;
 }
-
-/* footer */
-
-/* Page template A */
-
-/* Page template B */
-
-/* Media Queries */
