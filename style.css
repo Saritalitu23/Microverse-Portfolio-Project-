@@ -9,24 +9,28 @@
 }
 
 /* General */
+
 html {
   font-size: 16px;
 }
 
 /* header section */
+
 #menu-1 {
-  width: 20%;
-  margin-right: 14px;
-  margin-left: 250px;
-  padding: 20px;
+  width: 2.5rem;
+}
+
+nav {
+  height: 4rem;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  background-image: url(images/icons/image_geometry_1.svg);
   margin-bottom: 5%;
+  background-image: url(images/icons/image_geometry_1.svg);
+  padding: 1rem;
   background-position: left top;
 }
 
@@ -35,6 +39,7 @@ header {
 }
 
 /* main section */
+
 #main {
   flex-direction: column;
   gap: 1.5rem;
@@ -42,32 +47,46 @@ header {
   font-weight: 400;
 }
 
-.bg {
-  background-image: url(images/icons/image_geometry_2.svg);
-  background-position: top center;
-  height: 500px;
+.main-end img {
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
 }
 
 .title {
-  font-size: 3.125rem;
-  line-height: 0.9;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-style: normal;
   font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
   color: #1a2236;
 }
 
 .my-introduction {
-  font-size: 0.875rem;
-  line-height: 1.312rem;
-  letter-spacing: -1%;
+  width: 288px;
+  height: 147px;
+  left: 16px;
+  top: 221px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
 }
 
 .btn {
-  height: 3.125rem;
-  border: none;
-  color: #fff;
+  box-sizing: border-box;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
   background: #1a2236;
-  font-weight: 500;
-  text-transform: capitalize;
+  color: #fff;
 }
 
 .btn:hover,
@@ -79,7 +98,7 @@ header {
 
 .btn:active {
   border: 2px solid #000;
-  background: #fff;
+  background-color: #fff;
   color: #000;
 }
 
@@ -90,4 +109,161 @@ header {
 
 .playfair {
   font-family: "Playfair Display", serif;
+}
+
+.project {
+  color: #fff;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: #1a2236;
+  padding-bottom: 1.25rem;
+}
+
+#project-title {
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 672px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin: 16px 121px 40px 32px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-left: 1rem;
+}
+
+.project-languages {
+  padding-left: 1rem;
+  color: #1a2236;
+  font-size: 0.625rem;
+  font-weight: 300;
+  list-style: none;
+  gap: 0.625rem;
+}
+
+.project-language {
+  background-color: #98dede;
+  display: inline-block;
+  padding: 0.15rem 0.3rem;
+  height: 1.25rem;
+}
+
+.project-btn {
+  margin-left: 1rem;
+  padding: 0.9375rem;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+  align-items: center;
+  width: 53%;
+}
+
+.project-btn:hover {
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.project-btn:active {
+  border: 2px solid #1a2236;
+}
+
+.project-btn span {
+  padding-right: 0.625rem;
+}
+
+/* grid & flex */
+
+#projects {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+.titlea {
+  margin-top: 56px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  margin-right: 168px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  width: 134px;
+}
+
+.about {
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.25rem;
+}
+
+#about-me {
+  width: 288px;
+  height: 105px;
+  left: 16px;
+  top: 2932px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+#get-cv-btn {
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.d-container {
+  color: #fff;
+}
+
+.card {
+  padding-left: 3.125rem;
+  list-style: none;
+  height: 289px;
+}
+
+.card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1.3125rem;
+  padding-top: 3.125rem;
+}
+
+.list-1 {
+  background-color: 1.125rem;
+  font-weight: 600;
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+
+#languages {
+  background-color: #1c528a;
+  background-image: url(images/icons/hash.svg);
+  background-position: right bottom;
+}
+
+#frameworks {
+  background-color: #e2505c;
+  background-image: url(images/icons/frameworks.svg);
+  background-position: right bottom;
+}
+
+#skills {
+  background-color: #febf52;
+  background-image: url(images/icons/Skills.svg);
+  background-position: right bottom;
 }
