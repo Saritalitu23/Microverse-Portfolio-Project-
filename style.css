@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 /* General */
@@ -18,10 +19,13 @@ html {
 
 #menu-1 {
   width: 2.5rem;
+  
+  
 }
 
 nav {
   height: 4rem;
+  
 }
 
 header {
@@ -32,6 +36,7 @@ header {
   background-image: url(images/icons/image_geometry_1.svg);
   padding: 1rem;
   background-position: left top;
+  
 }
 
 .flex {
