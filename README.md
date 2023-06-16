@@ -1,4 +1,4 @@
-# Microverse-Portfolio-Project-
+# Microverse-Portfolio-Project- Desktop version
 <div align="center">
 </div>
 
@@ -27,7 +27,7 @@
 
 # 📖 [Hello-Microverse] <a name="about-project"></a>
 
-its mini Technical Project
+Portfolio:Pritikant Dhal Desktop Version
 
 **Portfolio:Pritikant Dhal** is portfolio website written in HTML & CSS
 
@@ -47,8 +47,10 @@ its mini Technical Project
 
 ### Key Features <a name="key-features"></a>
 
-- **Header with menu item & background image**
-- **My Personal Introduction in Main Section**
+- **Update index.html & Style.CSS for Header**g
+- **Update index.html & Style.css for Main Section**
+- **Update index.html & Style.css for About & Contact Section**
+- **Update index.html & Style.css for Footer**
 - **Github workflows with linter(HTML & CSS)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +97,7 @@ git clone git@github.com:Saritalitu23/Microverse-Portfolio-Project-.git
 
 Install this project with:
 ```
-  cd Microverse-Portfolio-Project
+  cd Microverse-Portfolio-Project on desktop
   npm i
 ```
 
@@ -130,7 +132,7 @@ You can deploy this project using:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Pritikant Dhal**
 
 - GitHub: [@githubhandle](https://github.com/Saritalitu23)
 - Twitter: [@twitterhandle](https://twitter.com/litudhala?t=u4wb63Em_vy82OcQyHx4xQ&s=09)
