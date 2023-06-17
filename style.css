@@ -267,3 +267,102 @@ header {
   background-image: url(images/icons/Skills.svg);
   background-position: right bottom;
 }
+
+#contact-me {
+  color: #1a2236;
+}
+
+#get-started {
+  margin-top: 3.125rem;
+}
+
+.contact-t-img {
+  margin-bottom: 2rem;
+}
+
+#contact-me h3 {
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact-intro {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  letter-spacing: -1%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+/* form */
+
+#contact-box {
+  flex-direction: column;
+}
+
+form {
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.form-label {
+  color: #7d7c84;
+  font-size: 1rem;
+  margin-bottom: 0.1875rem;
+  margin-top: 0.5625rem;
+}
+
+.form-label,
+input {
+  display: block;
+}
+
+input {
+  height: 3.25rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+}
+
+input:hover {
+  border: 0.025rem solid #000;
+}
+
+/* typography */
+
+footer {
+  background: #1a2236;
+  flex-direction: column;
+}
+
+#get-resume {
+  margin-top: 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9375rem;
+  border: none;
+  background-color: #1a2236;
+  color: #92dcdc;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.social-icon {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.social-icon:hover {
+  transition: all 0.7s ease-in;
+  transform: scale(1.3);
+}
