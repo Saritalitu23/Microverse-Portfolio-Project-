@@ -11,13 +11,18 @@
 /* general */
 
 html {
-  font-size: 16px;
+  font-size: 10px;
 }
 
 #main {
   flex-direction: column;
+<<<<<<< Updated upstream
   gap: 1.5625rem;
   padding: 1rem;
+=======
+  gap: 2.5rem;
+  padding: 1.6rem;
+>>>>>>> Stashed changes
   font-weight: 400;
 }
 
@@ -31,17 +36,26 @@ html {
 
 .main-container {
   flex-direction: column;
+<<<<<<< Updated upstream
   gap: 1.375rem;
 }
 
 .title {
   font-size: 3.125rem;
+=======
+  gap: 2.2rem;
+}
+
+.title {
+  font-size: 5rem;
+>>>>>>> Stashed changes
   line-height: 0.9;
   font-weight: 400;
   color: #1a2236;
 }
 
 .my-intro {
+<<<<<<< Updated upstream
   font-size: 0.875rem;
   line-height: 1.3125rem;
   letter-spacing: -1%;
@@ -51,6 +65,11 @@ html {
   font-weight: 400;
   color: #1a2236;
   font-family: 'Poppins', sans-serif;
+=======
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  letter-spacing: -1%;
+>>>>>>> Stashed changes
 }
 
 .btn {
@@ -67,7 +86,11 @@ html {
   border: 1px solid #000;
   background-color: #fff;
   color: #000;
+<<<<<<< Updated upstream
   transition: ease-in 0.6s;
+=======
+  transition: ease-in 0.5s;
+>>>>>>> Stashed changes
 }
 
 .btn:active {
@@ -77,9 +100,37 @@ html {
 }
 
 #start-collab-btn {
+<<<<<<< Updated upstream
+=======
   width: 100%;
 }
 
+.project {
+  color: #fff;
+  background-color: #1a2236;
+}
+
+.bg {
+  display: none;
+}
+
+.project-header {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+#project-title {
+  text-transform: capitalize;
+  padding-left: 1.6rem;
+}
+
+.project-img {
+>>>>>>> Stashed changes
+  width: 100%;
+  display: block;
+}
+
+<<<<<<< Updated upstream
 /* projects section */
 
 .project {
@@ -115,14 +166,25 @@ html {
 
 .project-overlay p {
   font-size: 1.25rem;
+=======
+.project-overlay {
+  flex-direction: column;
+  gap: 1.4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project-overlay p {
+  font-size: 2rem;
+>>>>>>> Stashed changes
   font-weight: 300;
-  padding-left: 1rem;
+  padding-left: 1.6rem;
 }
 
 .project-languages {
-  padding-left: 1rem;
+  padding-left: 1.6rem;
   color: #1a2236;
-  font-size: 0.625rem;
+  font-size: 1rem;
   font-weight: 300;
   list-style: none;
 }
@@ -130,17 +192,24 @@ html {
 .project-language {
   background-color: #98dede;
   display: inline;
+<<<<<<< Updated upstream
   padding: 0.125rem 0.625rem;
   height: 1.25rem;
   float: left;
   margin-right: 0.3125rem;
+=======
+  padding: 0.2rem 1rem;
+  height: 2rem;
+  float: left;
+  margin-right: 0.5rem;
+>>>>>>> Stashed changes
 }
 
 .project-btn {
-  margin-left: 1rem;
-  padding: 0.9375rem;
+  margin-left: 1.6rem;
+  padding: 1.5rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.6rem;
   border: 1px solid #fff;
   background-color: #1a2236;
   color: #fff;
@@ -161,6 +230,7 @@ html {
 }
 
 .project-btn span {
+<<<<<<< Updated upstream
   padding-right: 0.625rem;
 }
 
@@ -175,21 +245,47 @@ html {
 
 .about > h3 {
   margin-top: 2.5rem;
+=======
+  padding-right: 1rem;
+}
+
+.about {
+  flex-direction: column;
+  padding: 3rem 1.6rem 3rem 1.6rem;
+  gap: 2rem;
+  margin-bottom: 2.7rem;
+}
+
+.about > h3 {
+  margin-top: 4rem;
+>>>>>>> Stashed changes
 }
 
 #about-me-details {
   font-weight: 400;
+<<<<<<< Updated upstream
   font-size: 0.875rem;
   line-height: 1.3125rem;
   color: #1a2236;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+=======
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #1a2236;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+>>>>>>> Stashed changes
 }
 
 #get-cv-btn {
   justify-content: center;
   align-items: center;
+<<<<<<< Updated upstream
   gap: 0.625rem;
+=======
+  gap: 1rem;
+>>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -200,7 +296,11 @@ html {
 footer ul {
   text-align: center;
   justify-content: space-between;
+<<<<<<< Updated upstream
   margin: 2.5rem;
+=======
+  margin: 4rem;
+>>>>>>> Stashed changes
   list-style: none;
   gap: 1rem;
 }
@@ -210,46 +310,76 @@ footer ul {
 }
 
 .card {
+<<<<<<< Updated upstream
   padding: 2.5rem;
+=======
+  padding-left: 4rem;
+>>>>>>> Stashed changes
   list-style: none;
   height: 289px;
 }
 
 .card h5 {
+<<<<<<< Updated upstream
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
 .list-i {
   font-size: 1.125rem;
+=======
+  font-size: 2rem;
+  margin-bottom: 2.1rem;
+  padding-top: 4rem;
+}
+
+.list-i {
+  font-size: 1.8rem;
+>>>>>>> Stashed changes
   font-weight: 600;
   list-style-type: disc;
-  margin-left: 1.25rem;
+  margin-left: 2rem;
 }
 
 #langs {
   background-color: #1c528a;
+<<<<<<< Updated upstream
   background-image: url(Images/icons/hash.svg);
+=======
+  background-image: url(/icons/hash.svg);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 #frameworks {
   background-color: #e2505c;
+<<<<<<< Updated upstream
   background-image: url(Images/icons/frameworks.svg);
+=======
+  background-image: url(/icons/frameworks.svg);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 #skills {
   background-color: #febf52;
+<<<<<<< Updated upstream
   background-image: url(Images/icons/Skills.svg);
+=======
+  background-image: url(/icons/Skills.svg);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 #about-me-bg {
+<<<<<<< Updated upstream
   display: none;
+=======
+  display: flex;
+>>>>>>> Stashed changes
 }
 
 #contact-me {
@@ -257,18 +387,30 @@ footer ul {
 }
 
 #get-started {
+<<<<<<< Updated upstream
   margin-top: 3.125rem;
+=======
+  
+width: 548px;
+height: 110px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+color: #1A2236;
+>>>>>>> Stashed changes
 }
 
 .contact-t-img {
-  margin-bottom: 2rem;
+  margin-bottom: 3.2rem;
 }
 
 #contact-me h3 {
-  margin-left: 1rem;
-  margin-bottom: 1.25rem;
+  margin-left: 1.6rem;
+  margin-bottom: 2rem;
 }
 
+<<<<<<< Updated upstream
 .contact-intro {
   font-size: 0.875rem;
   line-height: 1.3125rem;
@@ -277,6 +419,19 @@ footer ul {
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: left;
+=======
+.contact-intro {  
+width: 548px;
+height: 42px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 350px;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+color: #1A2236;
+
+>>>>>>> Stashed changes
 }
 
 /* form */
@@ -286,23 +441,35 @@ footer ul {
 }
 
 form {
-  margin: 1rem;
+  margin: 1.6rem;
   flex-direction: column;
 }
 
 .form-label {
   color: #7d7c84;
   font-size: 1rem;
+<<<<<<< Updated upstream
   margin-bottom: 0.1875rem;
   margin-top: 0.5625rem;
+=======
+  margin-bottom: 0.3rem;
+  margin-top: 0.9rem;
+>>>>>>> Stashed changes
 }
 
 .form-label,
 input {
-  display: block;
+  display:block;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
+
 input {
+<<<<<<< Updated upstream
   height: 3.25rem;
   width: 100%;
   padding-left: 1rem;
@@ -314,13 +481,83 @@ textarea {
   padding-top: 0.875rem;
   padding-left: 1rem;
   margin-bottom: 1.25rem;
+=======
+ height: 60px;
+padding-left: 1.6rem;
+width: 254px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+margin-right: 5px;
+}
+
+textarea {
+width: 100%;
+height: 9rem;
+padding-top: 1.4rem;
+padding-left: 1.6rem;
+margin-bottom: 2rem;
+width: 542px;
+height: 140px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+
+width: 542px;
+height: 140px;
+left: 449px;
+
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+>>>>>>> Stashed changes
 }
 
 input:hover {
-  border: 0.025rem solid #000;
+  border: 0.04rem solid #000;
 }
 
 /* typography */
+.popins {
+  font-family: "Poppins", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+/* grid  & flex */
+
+#projects {
+  display: grid;
+  grid-template-rows: auto repeat(6, 1fr);
+  grid-template-columns: 1fr;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header */
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+#menu-1 {
+  width: 20px;
+  margin-right: 14px;
+}
+
+.nav_links {
+  display: none;
+}
+
+/* footer */
+
 .popins {
   font-family: "Poppins", sans-serif;
 }
@@ -366,15 +603,15 @@ footer {
 }
 
 #get-resume {
-  margin-top: 1.75rem;
+  margin-top: 2.8rem;
   justify-content: center;
   align-items: center;
-  gap: 0.9375rem;
+  gap: 1.5rem;
   border: none;
   background-color: #1a2236;
   color: #92dcdc;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
@@ -387,11 +624,20 @@ footer {
   transform: scale(1.3);
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 @media screen and (min-width: 768px) {
   /* general */
 
   .title {
+<<<<<<< Updated upstream
     font-size: 5.5625rem;
+=======
+    font-size: 9rem;
+>>>>>>> Stashed changes
     font-weight: 400;
   }
 
@@ -400,10 +646,13 @@ footer {
     background-size: 100% 100%;
   }
 
+<<<<<<< Updated upstream
   .bg:hover {
     transform: scale(1.01);
   }
 
+=======
+>>>>>>> Stashed changes
   /* header section */
 
   header {
@@ -417,9 +666,15 @@ footer {
   }
 
   .nav {
+<<<<<<< Updated upstream
     font-size: 1rem;
     font-weight: 400;
     padding: 2.375rem;
+=======
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 3.8rem;
+>>>>>>> Stashed changes
   }
 
   .nav_links {
@@ -443,14 +698,22 @@ footer {
     display: none;
   }
 
+<<<<<<< Updated upstream
   /* main section */
+=======
+  /* hero section */
+>>>>>>> Stashed changes
 
   #main {
     flex-direction: row;
     width: 100%;
     gap: 0;
     padding: 0;
+<<<<<<< Updated upstream
     margin-bottom: 1.25rem;
+=======
+    margin-bottom: 20rem;
+>>>>>>> Stashed changes
   }
 
   form > * {
@@ -467,6 +730,7 @@ footer {
 
   .main-start {
     display: block;
+<<<<<<< Updated upstream
     background: url(Images/icons/hero_main.svg);
     background-size: 100% 100%;
     min-height: 46.875rem;
@@ -486,6 +750,27 @@ footer {
 
   .main-container h1 {
     font-size: 6.25rem;
+=======
+    background: url(icons/hero_main.svg);
+    background-size: 100% 100%;
+    height: 75rem;
+  }
+
+  .main-container {
+    height: 75rem;
+    padding-left: 10rem;
+    padding-right: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(icons/image_dots.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    gap: 5rem;
+  }
+
+  .main-container h1 {
+    font-size: 10rem;
+>>>>>>> Stashed changes
     line-height: 100%;
     width: 50%;
   }
@@ -513,7 +798,11 @@ footer {
       "project-3     project-3 project-3 .         project-5 project-5"
       "project-3     project-3 project-3 bg-2      bg-2      bg-2"
       "bg-3          bg-3      bg-3      project-4 project-4 .";
+<<<<<<< Updated upstream
     margin-bottom: 12.5rem;
+=======
+    margin-bottom: 20rem;
+>>>>>>> Stashed changes
   }
 
   .project {
@@ -544,11 +833,14 @@ footer {
     transition: 0.5s ease;
   }
 
+<<<<<<< Updated upstream
   .project:hover {
     transition: all 0.5s ease-in;
     transform: scale(1.01);
   }
 
+=======
+>>>>>>> Stashed changes
   .project:hover .project-overlay {
     height: 75%;
     opacity: 1;
@@ -587,32 +879,54 @@ footer {
 
   #bg-1 {
     grid-area: bg-1;
+<<<<<<< Updated upstream
     background-image: url(Images/icons/background-1.svg);
+=======
+    background-image: url(icons/background-1.svg);
+>>>>>>> Stashed changes
     background-size: 100% 100%;
   }
 
   #bg-2 {
     grid-area: bg-2;
+<<<<<<< Updated upstream
     background-image: url(Images/icons/background-2.svg);
+=======
+    background-image: url(icons/background-2.svg);
+>>>>>>> Stashed changes
   }
 
   #bg-3 {
     grid-area: bg-3;
     background-image:
+<<<<<<< Updated upstream
       url(Images/icons/background-3.svg),
       url(Images/icons/image-geometry_4.svg);
+=======
+      url(icons/background-3.svg),
+      url(icons/image-geometry_4.svg);
+>>>>>>> Stashed changes
     background-repeat: no-repeat, no-repeat;
     background-position-x: left, right;
     background-position-y: top, top;
     background-size: 50% 50%, 50% 50%;
   }
 
+<<<<<<< Updated upstream
   .project-head {
     padding-left: 6.25rem;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
     background-image: url(Images/icons/image_dots.svg);
+=======
+  .project-header {
+    padding-left: 10rem;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-image: url(icons/image_dots.svg);
+>>>>>>> Stashed changes
   }
 
   #project-title {
@@ -627,6 +941,7 @@ footer {
 
   .about {
     flex-direction: row-reverse;
+<<<<<<< Updated upstream
     padding: 6.25rem;
   }
 
@@ -636,6 +951,18 @@ footer {
 
   footer > ul {
     gap: 1.875rem;
+=======
+    padding: 10rem;
+    gap: 5rem;
+  }
+
+  #about_me {
+    padding: 5rem;
+  }
+
+  footer > ul {
+    gap: 3rem;
+>>>>>>> Stashed changes
   }
 
   .details-container > ul {
@@ -652,6 +979,7 @@ footer {
   }
 
   #about-me-details {
+<<<<<<< Updated upstream
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
   }
@@ -659,6 +987,14 @@ footer {
   #about-me-bg {
     display: block;
     background-image: url(Images/icons/image_dots_with_teal.svg);
+=======
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #about-me-bg {
+    background-image: url(icons/image_dots_with_teal.svg);
+>>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -673,12 +1009,21 @@ footer {
 
   #contact-me {
     background-image:
+<<<<<<< Updated upstream
       url(Images/icons/contact-bg.svg),
       url(Images/icons/image-geometry_7.svg);
     background-repeat: no-repeat;
     background-position-x: left, right;
     background-position-y: top, bottom;
     padding: 9.375rem;
+=======
+      url(icons/contact-bg.svg),
+      url(icons/image-geometry_7.svg);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: top, bottom;
+    padding: 15rem;
+>>>>>>> Stashed changes
   }
 
   #contact-box {
@@ -691,15 +1036,27 @@ footer {
     text-align: left;
   }
 
+<<<<<<< Updated upstream
   .bt-form {
     align-self: center;
     justify-content: center;
+=======
+  form {
+    flex-direction: column;
+  }
+
+  .bt-form {
+    align-self: center;
+    justify-content: center;
+    
+>>>>>>> Stashed changes
   }
 
   /* footer */
   footer {
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< Updated upstream
     padding-left: 10rem;
     padding-right: 10rem;
   }
@@ -724,5 +1081,10 @@ footer {
 
   .card {
     min-width: 15.625rem;
+=======
+    padding-left: 16rem;
+    padding-right: 16rem;
+>>>>>>> Stashed changes
   }
 }
+
